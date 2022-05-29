@@ -9,10 +9,7 @@ function getMemo(){
         let memoBox = localStorage.getItem(`memo${i}`);
         memos.innerHTML += `
         <article class="memoBox">
-        <h2 class="bookTitle">🍂 Title : ${memoBox}</h2>
-            <button class="delete-btn" type="button">
-             <i class="fa-solid fa-trash-can"></i>
-            </button>
+            <h2 class="bookTitle">🍂 Title : ${memoBox}</h2>
         </article>
         `
     }

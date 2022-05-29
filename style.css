@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'GowunBatang-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body,
 h1,
 h2,
@@ -14,7 +22,9 @@ h2 {
 
 body {
   background-color: #fff6ea;
+  font-family: 'GowunBatang-Regular';
 }
+
 .wrapper {
   width: 400px;
   margin: 40px auto;
@@ -45,6 +55,7 @@ body {
   margin-right: 5px;
   margin-bottom: 10px;
   font-size: 16px;
+  font-family: 'GowunBatang-Regular';
 }
 
 .write {
@@ -55,6 +66,7 @@ body {
   width: 40px;
   height: 40px;
   font-size: 14px;
+  font-family: 'GowunBatang-Regular';
   background-color: #c69b7b;
   color: #fff;
 }
@@ -88,6 +100,7 @@ body {
   width: 100%;
   height: 40px;
   font-size: 16px;
+  font-family: 'GowunBatang-Regular';
   background-color: #c69b7b;
   color: #fff;
 }
