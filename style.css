@@ -1,0 +1,93 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  background-color: #fff6ea;
+}
+.wrapper {
+  width: 400px;
+  margin: 40px auto;
+}
+
+.header {
+  color: #826f66;
+  font-size: 32px;
+  text-align: center;
+  margin: 10px;
+}
+
+.main {
+  margin: 20px;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+}
+
+.memo {
+  width: 300px;
+  outline: none;
+  border: 1px solid #c69b7b;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.write {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #c69b7b;
+  color: #fff;
+}
+
+.bookTitle {
+  display: inline-block;
+}
+
+.memoBox {
+  width: 350px;
+  margin: 20px auto;
+  padding: 6px;
+  border-bottom: 1px solid #c69b7b;
+}
+
+.delete-btn {
+  cursor: pointer;
+  float: right;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: rgb(235, 32, 32);
+}
+
+.clear {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  background-color: #c69b7b;
+  color: #fff;
+}
